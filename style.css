@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Heebo', sans-serif;
+}
+
+nav{
+    padding: 27px 0px;
+}
+
+nav .col-3 ul {
+    display: flex;
+    gap: 33px;
+
+}
+
+nav .col-3 ul li a{
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+color: #000000;
+text-decoration: none;
+}
+
+header{
+    padding-top: 100px;
+}
+
+
+.personal_info{
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+color: #21243D;
+}
+
+.info_text{
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #21243D;
+margin-top: 40px;
+margin-bottom: 30px;
+}
+
+
+.btn_text{
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+color: #FFFFFF;
+padding: 10px 21px;
+border: none;
+background: #FF6464;
+border-radius: 2px;
+}
+
+.user_pic{
+    border-radius: 150px;
+}
+
+
+
+
+/* ================ main started ================== */
+
+.first_section{
+    background: #EDF7FA;
+    margin-top: 71px;
+    padding-bottom: 32px;
+}
+
+.recommendation{
+    width: 153px;
+}
+
+.post_info{
+    font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 60px;
+display: flex;
+align-items: flex-end;
+color: #21243D;
+margin-top: 27px;
+}
+
+
+.all_info{
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #00A8CC;
+margin-top: 27px;
+cursor: pointer;
+margin-left: 73px;
+}
+
+
+.design_system{
+background: #FFFFFF;
+box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+border-radius: 4px;
+width: 418px;
+padding: 24px 21px 23px 23px;
+}
+
+.design_system h2{
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+color: #21243D;
+margin-bottom: 17px;
+}
+
+
+.design_system .data ,
+.name_field{
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+color: #21243D;
+}
+
+
+
+.line{
+    display: inline-block;
+    width: 1px;
+    height: 16px;
+    background-color: #000000;
+    margin: 0px 26px;
+}
+
+/* .data::after{
+    content: " ";
+    background-color: #000000;
+    height: 21px;
+    width: 0px;
+    margin: 0px 26px;
+} */
+
+
+.design_system p{
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #21243D;
+margin-top: 11px;
+}
+
+.featured{
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+color: #21243D;
+margin-top: 30px;
+}
+
+.types_of_design {
+    display: flex;
+    gap: 18px;
+    border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 15px;
+    padding-top: 25px;
+}
+
+.d_text{
+width: 594px;
+}
+
+ .pic{
+    padding-top: 10px;
+    width: 246px;
+}
+
+
+.d_text h3{
+    font-family: 'Heebo';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 44px;
+color: #21243D;
+margin-bottom: 13px;
+}
+
+.d_text .numb{
+    font-family: 'Heebo';
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 60px;
+background: #142850;
+border-radius: 16px;
+padding: 5px 15px;
+color: #FFFFFF;
+}
+
+.d_name{
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+color: #8695A4;
+margin-left: 26px;
+}
+
+.d_text p{
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #21243D;
+margin-top: 12px;
+}
+
+
+
+
+.social_networks{
+    display: flex;
+    gap: 35px;
+    width: 250px;
+    margin: auto;
+    margin-top: 134px;
+}
+
+.social_networks i{
+    font-size: 45px;
+    color: #21243D;
+    cursor: pointer;
+}
+
+.f_text{
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 21px;
+text-align: center;
+color: #21243D;
+margin-top: 26px;
+margin-bottom: 54px;
+display: flex;
+justify-content: center;
+margin-left: 39px;
+}

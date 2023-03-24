@@ -275,7 +275,7 @@ justify-content: space-between;
   display: none;
 }
 
-@media (max-width: 576px){
+/* @media (max-width: 576px){
 
 .container{
   width: 576px;
@@ -370,8 +370,8 @@ margin-top: 222px;
   margin-top: 30px;
 }
 
-}
-@media (max-width: 362px){
+} */
+@media (max-width: 567px){
 
 .container{
   width: 100%;
